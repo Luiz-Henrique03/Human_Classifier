@@ -7,6 +7,6 @@
 - Renan Laba Bott
 - Pedro Henrique Mazzeu Sá
 
-# Objetivo do classificador de image
+# Objetivo do classificador de imagem
 
 - Identificar se a imagem de entrada é uma pessoa ou não
