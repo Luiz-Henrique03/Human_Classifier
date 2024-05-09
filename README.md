@@ -22,15 +22,15 @@ Depois das camadas convolucionais, há uma camada de achatamento (Flatten) para 
 Em seguida, duas camadas densas (Dense) são adicionadas com funções de ativação ReLU e dropout para evitar overfitting.
 A última camada densa possui uma única unidade com função de ativação sigmoid, adequada para problemas de classificação binária.
 
-#Compilação do modelo:
+# Compilação do modelo:
 O modelo é compilado utilizando o otimizador Adam e a função de perda binary_crossentropy, uma vez que é um problema de classificação binária.
 A métrica de avaliação escolhida é a accuracy (acurácia).
 
-#Pré-processamento dos dados:
+# Pré-processamento dos dados:
 O ImageDataGenerator é utilizado para realizar o pré-processamento das imagens, aplicando várias transformações como rotação, espelhamento horizontal, cisalhamento, deslocamento de altura e zoom.
 As imagens também são redimensionadas para o tamanho 128x128 e normalizadas para o intervalo [0, 1].
 
-#Carregamento dos dados:
+# Carregamento dos dados:
 Os dados são carregados usando o método flow_from_directory, que permite carregar imagens diretamente de diretórios.
 O diretório '/content/drive/MyDrive/retrato_outro' contém as imagens para treinamento e teste.
 As imagens são carregadas com tamanho 128x128, em lotes de tamanho 20, e são classificadas em duas classes (binary).
