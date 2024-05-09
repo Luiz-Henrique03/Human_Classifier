@@ -7,6 +7,10 @@
 - Renan Laba Bott - 8125569279
 - Pedro Henrique Mazzeu Sá - 8125856022
 
+# Base de dados
+
+https://www.kaggle.com/datasets/kazushiadachi/human-portrait-or-not-128128-binary-and-rgb?resource=download
+
 # Objetivo do classificador de imagem
 
 - Identificar se a imagem de entrada é uma pessoa ou não
